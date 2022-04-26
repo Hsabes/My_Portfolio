@@ -1,5 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const headNavA = document.getElementsByClassName('headNavA');
 
-document.querySelector("body").appendChild(h2);
-
+headNavA.addEventListener('mouseover', function handleMouseOver() {
+    headNavA.style.color = 'red';
+  });

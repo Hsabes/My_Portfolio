@@ -1,3 +1,69 @@
+/* Body background-color should be light-ish gray to contrast from the headbar */
+
 body {
-    background-color: lightblue;
-};
+    background-color: slategray;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headbar div should be black, 100% width, but not take up too much of the vertical space on the webpage. The text content within this div should be centered.
+The headbar itself, and it's contents, should scroll with the web page  */
+
+div#headbar {
+    position: static;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+nav#headNav {
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text in the headbar should be white, no underline, large text, with padding to separate the contents */
+
+div#headbar nav#headNav a.navLinks {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 50%;
+    top: 30%;
+}
+
+div#headbar nav#headNav a#headNavA:hover {
+    color: rgb(59, 206, 255);
+    top: 20%;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+div#headbar nav#headNav a#headNavB:hover {
+    color: rgb(59, 206, 255);
+    top: 20%;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+div#headbar nav#headNav a#headNavC:hover {
+    color: rgb(59, 206, 255);
+    top: 20%;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+div#headbar nav#headNav a#headNavD:hover {
+    color: rgb(59, 206, 255);
+    top: 20%;
+    transition: .5s;
+    text-decoration: underline;
+}
