@@ -1,7 +1,7 @@
 /* Body background-color should be light-ish gray to contrast from the headbar */
 
 body {
-    background-color: slategray;
+    background-color: slategrey;
     margin: 0;
     padding: 0;
 }
@@ -10,9 +10,7 @@ body {
 The headbar itself, and it's contents, should scroll with the web page  */
 
 div#headbar {
-    position: static;
     background-color: black;
-    margin: 0;
     width: 100%;
     height: 125px;
     text-align: center;
@@ -32,12 +30,14 @@ nav#headNav {
 div#headbar nav#headNav a.navLinks {
     color: white;
     text-decoration: none;
-    padding: 50px;
+    padding: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     position: relative;
     bottom: 50%;
-    top: 30%;
+    top: 28%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div#headbar nav#headNav a#headNavA:hover {
@@ -66,4 +66,58 @@ div#headbar nav#headNav a#headNavD:hover {
     top: 20%;
     transition: .5s;
     text-decoration: underline;
+}
+
+div#homeText {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    border: 2px solid white;
+    position: absolute;
+}
+
+body div#image {
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+
+body div#image img#profilePicture {
+    display: block;
+    width: 100%;
+}
+
+body div#image div#imageTextContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid white;
+    opacity: 0;
+}
+
+body div#image div#imageTextContainer p#imageText {
+    margin: 19%;
+}
+
+body div#image div#imageTextContainer:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+body div#profilePicture {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
