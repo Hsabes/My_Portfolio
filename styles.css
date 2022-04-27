@@ -37,6 +37,8 @@ div#headbar nav#headNav a.navLinks {
     margin-right: 20px;
 }
 
+
+
 div#headbar nav#headNav a#headNavA:hover {
     color: rgb(59, 206, 255);
     top: 20%;
@@ -99,11 +101,18 @@ div#headbar nav#headNav a#headNavD:not(:hover) {
     transition: .5s;
 }
 
+/* TITLE */
+
+body h1#title {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 /* HOME PAGE IMAGE WITH IMAGE TEXT AND CAPTION UNDERNEATH */
 
 body div#image {
     position: relative;
-    width: 600px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 55px;
@@ -130,7 +139,7 @@ body div#image div#imageTextContainer {
 }
 
 body div#image div#imageTextContainer p#imageText {
-    margin: 19%;
+    margin: 24%;
 }
 
 body div#image div#imageTextContainer:hover {
@@ -146,4 +155,5 @@ body div#image div#imageTextContainer:not(:hover) {
 body div figcaption {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
 }
