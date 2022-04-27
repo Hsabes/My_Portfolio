@@ -39,8 +39,8 @@ div#headbar nav#headNav a.navLinks {
 div#headbar nav#headNav a#headNavA:hover {
     color: rgb(59, 206, 255);
     top: 23%;
-    transition: .5s;
     text-decoration: underline;
+    transition: .5s;
 }
 
 div#headbar nav#headNav a#headNavA:not(:hover) {
@@ -55,8 +55,8 @@ div#headbar nav#headNav a#headNavA:not(:hover) {
 div#headbar nav#headNav a#headNavB:hover {
     color: rgb(59, 206, 255);
     top: 23%;
-    transition: .5s;
     text-decoration: underline;
+    transition: .5s;
 }
 
 div#headbar nav#headNav a#headNavB:not(:hover) {
@@ -71,8 +71,8 @@ div#headbar nav#headNav a#headNavB:not(:hover) {
 div#headbar nav#headNav a#headNavC:hover {
     color: rgb(59, 206, 255);
     top: 23%;
-    transition: .5s;
     text-decoration: underline;
+    transition: .5s;
 }
 
 div#headbar nav#headNav a#headNavC:not(:hover) {
@@ -87,8 +87,8 @@ div#headbar nav#headNav a#headNavC:not(:hover) {
 div#headbar nav#headNav a#headNavD:hover {
     color: rgb(59, 206, 255);
     top: 23%;
-    transition: .5s;
     text-decoration: underline;
+    transition: .5s;
 }
 
 div#headbar nav#headNav a#headNavD:not(:hover) {
@@ -96,7 +96,7 @@ div#headbar nav#headNav a#headNavD:not(:hover) {
     top: 30%;
     text-decoration: none;
     transition: .5s;
-}
+}   
 
 /* TITLE */
 
@@ -113,7 +113,7 @@ body div#image {
     margin-left: auto;
     margin-right: auto;
     margin-top: 55px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 body div#image img#profilePicture {
@@ -127,7 +127,7 @@ body div#image div#imageTextContainer {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
     color: #fff;
     text-align: center;
     font-size: 30px;
@@ -149,7 +149,17 @@ body div#image div#imageTextContainer:not(:hover) {
     transition: 1s;
 }
 
-body div figcaption {
+body section#description div#image div#imageTextContainer p#imageText a#projects {
+    color: white;
+    text-decoration: none;
+}
+
+body section#description div#image div#imageTextContainer p#imageText a#projects:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+body section div figcaption {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
