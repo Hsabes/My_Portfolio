@@ -31,8 +31,14 @@
                             programming, something I felt allowed me to express my creativity in a way that was suitable
                             for my brain. After graduating from Flatiron, my plan is to work as a web designer and attend
                             a program in Computer Science, where I can further establish my newfound love for programming.</p>
-                            <script src="js/script.js"></script>
                     </div>
+                    <script>
+                        const button = document.querySelector('#logPicButton');
+                        const contents = document.querySelector('.aboutMeImageText');
+                        button.addEventListener('click', function() {
+                            contents.style.opacity = 1;
+                        });
+                    </script>
                 </div>
                 <div class="aboutMeImage">
                     <img class="homePic" 
