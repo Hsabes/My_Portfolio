@@ -1,19 +1,15 @@
-/* Body background-color should be light-ish gray to contrast from the headbar */
-
 body {
     background-color: slategrey;
     margin: 0;
     padding: 0;
 }
 
-/* HEADBAR AND IT'S CONTENTS  */
-
-div#headbar {
+body section#topHead div#headbar {
     background-color: black;
     width: 100%;
     height: 115px;
     text-align: center;
-    margin-left: 0px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
 }
 
 nav#headNav {
@@ -96,71 +92,22 @@ div#headbar nav#headNav a#headNavD:not(:hover) {
     top: 30%;
     text-decoration: none;
     transition: .5s;
-}   
+}
 
-/* TITLE */
-
-body h1#title {
+body section#body h1 {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
 }
 
-/* HOME PAGE IMAGE WITH IMAGE TEXT AND CAPTION UNDERNEATH */
-
-body div#image {
-    position: relative;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 55px;
-    border: 2px solid white;
-}
-
-body div#image img#profilePicture {
-    display: block;
+body section#body div#aboutMeContainerGlobal {
+    border: 5px solid black;
     width: 100%;
+    height: 800px;
 }
 
-body div#image div#imageTextContainer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
-    color: #fff;
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    opacity: 0;
-}
-
-body div#image div#imageTextContainer p#imageText {
-    margin: 24%;
-}
-
-body div#image div#imageTextContainer:hover {
-    opacity: 1;
-    transition: 1s;
-}
-
-body div#image div#imageTextContainer:not(:hover) {
-    opacity: 0;
-    transition: 1s;
-}
-
-body section#description div#image div#imageTextContainer p#imageText a#projects {
-    color: white;
-    text-decoration: none;
-}
-
-body section#description div#image div#imageTextContainer p#imageText a#projects:hover {
-    text-decoration: underline;
-    transition: 1s;
-}
-
-body section div figcaption {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: small;
+body section#body div#aboutMeContainerGlobal div#aboutMeSubContainer {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
 }
