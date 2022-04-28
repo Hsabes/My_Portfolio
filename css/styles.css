@@ -159,7 +159,6 @@ body section#description div#image div#imageTextContainer p#imageText a#projects
 
 body section#description div#image div#imageTextContainer p#imageText a#projects:hover {
     text-decoration: underline;
-    transition: 1s;
 }
 
 body section div figcaption {
