@@ -1,7 +1,7 @@
 /* Body decoration */
 
 body {
-    background-color: slategrey;
+    background-color: slategray;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body section#topHead div#headbar {
     width: 100%;
     height: 115px;
     text-align: center;
-    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.55);
 }
 
 nav#headNav {
@@ -162,8 +162,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA p.aboutText {
@@ -171,6 +170,11 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA p.
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     margin: 15%;
+    position: relative;
+}
+
+body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA:hover {
+    opacity: 0;
 }
 
 /* IMAGE OVERLAY B */
@@ -181,8 +185,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextB {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextB p.aboutText {
@@ -200,8 +203,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.aboutText {
@@ -219,8 +221,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD p.aboutText {
@@ -230,11 +231,37 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD p.
     margin: 15%;
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage div.aboutMeImageText p.aboutText a#youtube {
+/* BUTTONS */
+
+body section#body div#aboutMeContainer div.aboutMeImage button#logPicButton {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(#ffffff, #808080);
+}
+
+body section#body div#aboutMeContainer div.aboutMeImage button#homePicButton {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(#ffffff, #808080);
+}
+
+body section#body div#aboutMeContainer div.aboutMeImage button#catPicButton {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(#ffffff, #808080);
+}
+
+body section#body div#aboutMeContainer div.aboutMeImage button#trainPicButton {
+    display: inline-block;
+    margin-top: 10px;
+    background: linear-gradient(#ffffff, #808080);
+}
+
+body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.aboutText a#youtube {
     color: white;
     text-decoration: none;
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage div.aboutMeImageText p.aboutText a#youtube:hover {
+body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.aboutText a#youtube:hover {
     text-decoration: underline;
 }

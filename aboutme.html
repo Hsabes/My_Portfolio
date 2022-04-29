@@ -24,8 +24,8 @@
                     <img class="logPic" 
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/262186655_6932671916750866_4488255592695267803_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=TlDjNb6RPzoAX-qJ_N2&_nc_ht=scontent-sea1-1.xx&oh=00_AT9uGN65H9cYipzUqGvD2YBUE90y1Nma5wbTPamSaPeKaA&oe=626FCACD" 
                     alt="Picture of chopped logs" />
-                    <button id="logPicButton" onclick="changeOpacity()"></button>
-                    <div id="aboutMeImageTextA">
+                    <button id="logPicButton">Click Me</button>
+                    <div id="aboutMeImageTextA" style="display: none;">
                         <p class="aboutText">My name is Harrison Sabean. I originally completed my bachelor's 
                             degree at Berklee College of Music in 2019. I decided to move on from a career in music and pursue
                             programming, something I felt allowed me to express my creativity in a way that was suitable
@@ -36,7 +36,7 @@
                         const buttonA = document.querySelector('#logPicButton');
                         const contentsA = document.querySelector('#aboutMeImageTextA');
                         buttonA.addEventListener('click', function() {
-                            contentsA.style.opacity = 1;
+                            contentsA.style.display = contentsA.style.display === 'none' ? 'block' : 'none';
                         });
                     </script>
                 </div>
@@ -44,8 +44,8 @@
                     <img class="homePic" 
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/255967091_6886134084737983_5252604360764652175_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=xOeJYc3SNDEAX-SI1S8&_nc_ht=scontent-sea1-1.xx&oh=00_AT9tq9DK_GBKH5eIWRDh2PNL8C4SujVRGoyWtUI6wI48aA&oe=626F8338" 
                     alt="My backyard" />
-                    <button id="homePicButton" onclick=""></button>
-                    <div id="aboutMeImageTextB">
+                    <button id="homePicButton">Click Me</button>
+                    <div id="aboutMeImageTextB" style="display: none;">
                         <p class="aboutText">As of right now, my only experience with tech and programming is 
                             what I have learned at Flatiron up to this point. This website is a reflection of that knowledge,
                             obtained during the assigned work preceding the beginning of the boot camp.</p>
@@ -54,7 +54,7 @@
                         const buttonB = document.querySelector('#homePicButton');
                         const contentsB = document.querySelector('#aboutMeImageTextB');
                         buttonB.addEventListener('click', function() {
-                            contentsB.style.opacity = 1;
+                            contentsB.style.display = contentsB.style.display === 'none' ? 'block' : 'none';
                         });
                     </script>
                 </div>
@@ -62,8 +62,8 @@
                     <img class="catPic" 
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/93308681_4074271979257555_278911933501931520_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=zYhi8S6ctasAX8MIqu6&_nc_ht=scontent-sea1-1.xx&oh=00_AT_Eyio8lrbq_jkc1jBJOYCdh3QeLFVEGVM_xVlyvPj9yg&oe=62913BEF" 
                     alt="My cat Smitty" />
-                    <button id="catPicButton" onclick=""></button>
-                    <div id="aboutMeImageTextC">
+                    <button id="catPicButton">Click Me</button>
+                    <div id="aboutMeImageTextC" style="display: none;">
                         <p class="aboutText">My hobbies include playing the guitar, disc golfing, playing with my 
                             cat Smitty, and working out. I've been playing the guitar for 15 years, and attended music school to become
                             a professional musician in 2014. I learned about disc golfing last summer, and have been enthralled
@@ -74,7 +74,7 @@
                         const buttonC = document.querySelector('#catPicButton');
                         const contentsC = document.querySelector('#aboutMeImageTextC');
                         buttonC.addEventListener('click', function() {
-                            contentsC.style.opacity = 1;
+                            contentsC.style.display = contentsC.style.display === 'none' ? 'block' : 'none';
                         });
                     </script>
                 </div>
@@ -82,15 +82,17 @@
                     <img class="trainPic" 
                     src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.6435-9/55793607_2923178834366881_2647795437599195136_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=19026a&_nc_ohc=F3t-2pg5-HMAX_Vw442&_nc_ht=scontent-sea1-1.xx&oh=00_AT82yEYGzUJm28ZJ_UvoArQEwNOl0HIB1-7Oq-5iRlA1_Q&oe=628EBD45" 
                     alt="Picture of train tracks" />
-                    <button id="trainPicButton" onclick=""></button>
-                    <div id="aboutMeImageTextD">
-                        <p class="aboutText">This panel will be about my plans after graduating from Flatiron</p>
+                    <button id="trainPicButton">Click Me</button>
+                    <div id="aboutMeImageTextD" style="display: none;">
+                        <p class="aboutText">I don't have anything to put in this panel yet, so it will remain empty. Consider
+                            it a euphemism for the amount of losing seasons Tom Brady has had in his career.
+                        </p>
                     </div>
                     <script>
                         const buttonD = document.querySelector('#trainPicButton');
                         const contentsD = document.querySelector('#aboutMeImageTextD');
                         buttonD.addEventListener('click', function() {
-                            contentsD.style.opacity = 1;
+                            contentsD.style.display = contentsD.style.display === 'none' ? 'block' : 'none';
                         });
                     </script>
                 </div>
