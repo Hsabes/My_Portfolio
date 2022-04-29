@@ -163,6 +163,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA {
     width: 100%;
     height: 100%;
     background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
+    transition: 1s;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA p.aboutText {
@@ -171,10 +172,6 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA p.
     font-size: 18px;
     margin: 15%;
     position: relative;
-}
-
-body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA:hover {
-    opacity: 0;
 }
 
 /* IMAGE OVERLAY B */
@@ -186,6 +183,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextB {
     width: 100%;
     height: 100%;
     background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
+    transition: 1s;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextB p.aboutText {
@@ -204,6 +202,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC {
     width: 100%;
     height: 100%;
     background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
+    transition: 1s;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.aboutText {
@@ -222,6 +221,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD {
     width: 100%;
     height: 100%;
     background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
+    transition: 1s;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD p.aboutText {
