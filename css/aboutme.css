@@ -36,7 +36,7 @@ div#headbar nav#headNav a.navLinks {
 
 div#headbar nav#headNav a#headNavA:hover {
     color: rgb(59, 206, 255);
-    top: 23
+    top: 23%;
     text-decoration: underline;
     transition: .5s;
     margin-right: 80px;
