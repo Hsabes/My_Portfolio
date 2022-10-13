@@ -130,7 +130,8 @@ div.projects {
     margin-left: auto;
     margin-right: auto;
     margin-top: 55px;
-    border: 2px solid white;
+    border: 3px solid white;
+    border-radius: 3px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
 }
 
@@ -148,12 +149,28 @@ div.projectTextContainer{
     background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
     color: #fff;
     text-align: center;
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75%;
     opacity: 0;
 }
 
 div.projectTextContainer:hover{
     opacity: 1;
     transition: 1s;
+}
+
+div.projectTextContainer:not(:hover){
+    opacity: 0;
+    transition: 1s;
+}
+
+h3.project_title{
+    text-decoration: underline;
+}
+
+h3.project_anchor_links{
+    font-size:large;
+}
+
+a.demolink{
+    color: #FFF;
 }
