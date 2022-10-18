@@ -150,16 +150,16 @@ div.projectTextContainer{
     color: #fff;
     text-align: center;
     font-size: 75%;
-    opacity: 0;
+    opacity: 1;
 }
 
 div.projectTextContainer:hover{
-    opacity: 1;
+    opacity: 0;
     transition: 1s;
 }
 
 div.projectTextContainer:not(:hover){
-    opacity: 0;
+    opacity: 1;
     transition: 1s;
 }
 
