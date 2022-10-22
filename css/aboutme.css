@@ -124,33 +124,35 @@ body section#body div#aboutMeContainer {
     width: 100%;
     height: 700px;
     position: absolute;
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
     /* background-color: black; */
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage {
-    width: 20%;
-    height: 400px;
+    width: 550px;
+    height: 550px;
     border: 2px solid white;
     position: relative;
     text-align: center;
+    margin: auto;
+    margin-top: 50px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage img.logPic {
+img.logPic {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage img.homePic {
+img.homePic {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage img.catPic {
+img.catPic {
     width: 100%;
     height: 100%;
     display: block;
@@ -158,7 +160,7 @@ body section#body div#aboutMeContainer div.aboutMeImage img.catPic {
 
 /* IMAGE OVERLAY A */
 
-body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA {
+div#aboutMeImageTextA {
     position: absolute;
     top: 0;
     left: 0;
@@ -168,7 +170,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA {
     transition: 1s;
 }
 
-body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextA p.aboutText {
+div#aboutMeImageTextA p.aboutText {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
@@ -214,9 +216,14 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.
     margin: 10%;
 }
 
+div#aboutMeImageTextC p.aboutText a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 /* IMAGE OVERLAY D */
 
-body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD {
+/* body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD {
     position: absolute;
     top: 0;
     left: 0;
@@ -231,7 +238,7 @@ body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD p.
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     margin: 10%;
-}
+} */
 
 /* BUTTONS */
 
@@ -254,6 +261,7 @@ body section#body div#aboutMeContainer div.aboutMeImage button#catPicButton {
     margin-top: 10px;
     background: linear-gradient(#ffffff, #808080);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
+    margin-bottom: 25px;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage button#trainPicButton {
