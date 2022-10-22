@@ -126,7 +126,6 @@ body section#body div#aboutMeContainer {
     position: absolute;
     display: inline-block;
     justify-content: space-around;
-    /* background-color: black; */
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage {
