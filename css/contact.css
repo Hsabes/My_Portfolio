@@ -179,3 +179,13 @@ body section#contact div#socialContainer div#youTube a img#youTubeLogo:hover {
     border-radius: 25%;
     transition: 0.25s;
 }
+
+body section#contact div#socialContainer div#dev a img#devLogo {
+    width: 100%;
+    height: 100%;
+}
+
+body section#contact div#socialContainer div#dev a img#devLogo:hover {
+    border-radius: 25%;
+    transition: 0.25s;
+}
