@@ -220,54 +220,15 @@ div#aboutMeImageTextC p.aboutText a{
     text-decoration: none;
 }
 
-/* IMAGE OVERLAY D */
-
-/* body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) 87%);
-    transition: 1s;
-}
-
-body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextD p.aboutText {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    margin: 10%;
-} */
-
 /* BUTTONS */
 
-body section#body div#aboutMeContainer div.aboutMeImage button#logPicButton {
+body section#body div#aboutMeContainer div.aboutMeImage button {
     display: inline-block;
+    font-size: 18px;
     margin-top: 10px;
     background: linear-gradient(#ffffff, #808080);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
-}
-
-body section#body div#aboutMeContainer div.aboutMeImage button#homePicButton {
-    display: inline-block;
-    margin-top: 10px;
-    background: linear-gradient(#ffffff, #808080);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
-}
-
-body section#body div#aboutMeContainer div.aboutMeImage button#catPicButton {
-    display: inline-block;
-    margin-top: 10px;
-    background: linear-gradient(#ffffff, #808080);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
-    margin-bottom: 25px;
-}
-
-body section#body div#aboutMeContainer div.aboutMeImage button#trainPicButton {
-    display: inline-block;
-    margin-top: 10px;
-    background: linear-gradient(#ffffff, #808080);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
+    margin-bottom: 5%;
 }
 
 body section#body div#aboutMeContainer div.aboutMeImage div#aboutMeImageTextC p.aboutText a#youtube {

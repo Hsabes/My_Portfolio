@@ -24,11 +24,11 @@
                     <img class="logPic" 
                     src="./pictures/guitar.jpeg" 
                     alt="Picture of chopped logs" />
-                    <button id="logPicButton">Click Me</button>
+                    <button id="logPicButton">Reveal</button>
                     <script>
                         const logButtonContentA = document.querySelector('#logPicButton');
                         logButtonContentA.addEventListener('click', function() {
-                            logButtonContentA.textContent = logButtonContentA.textContent === 'Click Me' ? 'Return' : 'Click Me';
+                            logButtonContentA.textContent = logButtonContentA.textContent === 'Reveal' ? 'Hide' : 'Reveal';
                         });
                     </script>
                     <div id="aboutMeImageTextA" style="opacity: 0;">
@@ -51,11 +51,11 @@
                     <img class="homePic" 
                     src="./pictures/techstack.png" 
                     alt="My backyard" />
-                    <button id="homePicButton">Click Me</button>
+                    <button id="homePicButton">Reveal</button>
                     <script>
                         const homeButtonContentB = document.querySelector('#homePicButton');
                         homeButtonContentB.addEventListener('click', function() {
-                            homeButtonContentB.textContent = homeButtonContentB.textContent === 'Click Me' ? 'Return' : 'Click Me';
+                            homeButtonContentB.textContent = homeButtonContentB.textContent === 'Reveal' ? 'Hide' : 'Reveal';
                         });
                     </script>
                     <div id="aboutMeImageTextB" style="opacity: 0;">
@@ -77,11 +77,11 @@
                     <img class="catPic" 
                     src="./pictures/smitty.jpeg" 
                     alt="My cat Smitty" />
-                    <button id="catPicButton">Click Me</button>
+                    <button id="catPicButton">Reveal</button>
                     <script>
                         const catButtonContentC = document.querySelector('#catPicButton');
                         catButtonContentC.addEventListener('click', function() {
-                            catButtonContentC.textContent = catButtonContentC.textContent === 'Click Me' ? 'Return' : 'Click Me';
+                            catButtonContentC.textContent = catButtonContentC.textContent === 'Reveal' ? 'Hide' : 'Reveal';
                         });
                     </script>
                     <div id="aboutMeImageTextC" style="opacity: 0;">
@@ -98,31 +98,6 @@
                         });
                     </script>
                 </div>
-                <!-- <div class="aboutMeImage">
-                    <img class="trainPic" 
-                    src="./pictures/train_tracks.jpeg" 
-                    alt="Picture of train tracks" />
-                    <button id="trainPicButton">Click Me</button>
-                    <script>
-                        const trainButtonContentD = document.querySelector('#trainPicButton');
-                        trainButtonContentD.addEventListener('click', function() {
-                            trainButtonContentD.textContent = trainButtonContentD.textContent === 'Click Me' ? 'Return' : 'Click Me';
-                        });
-                    </script>
-                    <div id="aboutMeImageTextD" style="opacity: 0;">
-                        <p class="aboutText">
-                            Currently working on developing my algorithm and code challenge skills with
-                            Code Wars
-                        </p>
-                    </div>
-                    <script>
-                        const buttonD = document.querySelector('#trainPicButton');
-                        const contentsD = document.querySelector('#aboutMeImageTextD');
-                        buttonD.addEventListener('click', function() {
-                            contentsD.style.opacity = contentsD.style.opacity === '0' ? '1' : '0';
-                        });
-                    </script>
-                </div> -->
             </div>
         </section>
     </body>
