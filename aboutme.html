@@ -21,7 +21,7 @@
             <h1>About Me</h1>
             <div id="aboutMeContainer">
                 <div class="aboutMeImage">
-                    <img class="logPic" 
+                    <img class="aboutPic" 
                     src="./pictures/guitar.jpeg" 
                     alt="Picture of chopped logs" />
                     <button id="logPicButton">Reveal</button>
@@ -48,7 +48,7 @@
                     </script>
                 </div>
                 <div class="aboutMeImage">
-                    <img class="homePic" 
+                    <img class="aboutPic" 
                     src="./pictures/techstack.png" 
                     alt="My backyard" />
                     <button id="homePicButton">Reveal</button>
@@ -74,7 +74,8 @@
                     </script>
                 </div>
                 <div class="aboutMeImage">
-                    <img class="catPic" 
+                    <img class="aboutPic" 
+                    id="changeCat"
                     src="./pictures/smitty.jpeg" 
                     alt="My cat Smitty" />
                     <button id="catPicButton">Reveal</button>
@@ -85,10 +86,20 @@
                         });
                     </script>
                     <div id="aboutMeImageTextC" style="opacity: 0;">
-                        <p class="aboutText">Technologies and skills I am currently working on include Java, Redux, and algorithms. You can view my 
-                            Code Wars account <a href="https://www.codewars.com/users/Hsabes"><em>here</em>. This picture is also my cat, and his name
-                            is Smitty. Say hi!</a>
+                        <div id="boopTheNose"></div>
+                        <p id="fierceKitty" class="aboutText">Technologies and skills I am currently working on include Java, Redux, and algorithms. You can view my 
+                            Code Wars account <a id="codewars" href="https://www.codewars.com/users/Hsabes"><em>here</em></a>. This picture is also my cat, and his name
+                            is Smitty. Whatever you do, do NOT boop his nose!
                         </p>
+                        <script>
+                            const sayHi = document.querySelector('#boopTheNose')
+                            let catImage = document.querySelector('#changeCat')
+                            let fierceKitty = document.querySelector('#fierceKitty')
+                            sayHi.addEventListener('click', function(){
+                                catImage.src = "./pictures/smittyFierce.jpeg"
+                                fierceKitty.textContent = "Now look what you've done!"
+                            })
+                        </script>
                     </div>
                     <script>
                         const buttonC = document.querySelector('#catPicButton');
