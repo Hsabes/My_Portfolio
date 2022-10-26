@@ -86,7 +86,7 @@
                         });
                     </script>
                     <div id="aboutMeImageTextC" style="opacity: 0;">
-                        <div id="boopTheNose"></div>
+                        <div id="boopTheNose" style="cursor: pointer"></div>
                         <p id="fierceKitty" class="aboutText">Technologies and skills I am currently working on include Java, Redux, and algorithms. You can view my 
                             Code Wars account <a id="codewars" href="https://www.codewars.com/users/Hsabes"><em>here</em></a>. This picture is also my cat, and his name
                             is Smitty. Whatever you do, do NOT boop his nose!
@@ -98,6 +98,7 @@
                             sayHi.addEventListener('click', function(){
                                 catImage.src = "./pictures/smittyFierce.jpeg"
                                 fierceKitty.textContent = "Now look what you've done!"
+                                sayHi.style.cursor = "auto"
                             })
                         </script>
                     </div>
